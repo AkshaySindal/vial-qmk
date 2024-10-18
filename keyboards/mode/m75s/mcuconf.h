@@ -25,3 +25,16 @@
 
 #undef STM32_PWM_USE_TIM3
 #define STM32_PWM_USE_TIM3 TRUE
+
+#undef STM32_HSECLK
+#define STM32_HSECLK 8000000
+
+/* Set PLL M divider from 4 (F411 GENERIC default) to 8, because of 16 MHz crystal on board */
+#undef STM32_PLLM_VALUE
+#define STM32_PLLM_VALUE                    8
+
+#undef STM32_PLLN_VALUE
+#define STM32_PLLN_VALUE                    336
+
+#undef STM32_PLLP_VALUE
+#define STM32_PLLP_VALUE                    4

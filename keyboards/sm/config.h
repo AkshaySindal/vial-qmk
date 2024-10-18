@@ -20,6 +20,7 @@
 //#define NO_ACTION_ONESHOT
 
 /* Set HSE clock since it differs from F411 default */
-#define STM32_HSECLK 8000000
+//#define STM32_HSECLK 12000000
+
 
 //#define DEBUG_MATRIX_SCAN_RATE

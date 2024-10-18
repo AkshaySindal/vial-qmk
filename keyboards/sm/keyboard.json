@@ -13,13 +13,13 @@
         "nkro": false
     },
     "matrix_pins": {
-	"cols": [ "B1", "B2", "B3", "B4", "B5", "B6", "B8", "B9", "B10", "B12", "B14", "B15", "A0", "A1", "A4", "A6", "A7" ],
+	"cols": [ "A12", "A13", "B3", "B4", "B5", "B6", "B8", "B9", "B10", "B12", "B14", "B15", "A0", "A1", "A8", "A6", "A7" ],
 	"rows": [ "C4", "C5", "C6", "C7", "C8", "C9" ]
     },
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x2330",
-        "vid": "0xC1ED"
+        "pid": "0x0001",
+        "vid": "0xFEED"
     },
 	"layouts": {
         "LAYOUT": {

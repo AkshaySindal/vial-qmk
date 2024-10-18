@@ -26,9 +26,7 @@
 //#define STM32_SERIAL_USE_USART2 	    TRUE
 /////////////////////////////////////////////////////////////////////////
 
-/* Set PLL M divider from 4 (F411 GENERIC default) to 8, because of 16 MHz crystal on board */
-#undef STM32_PLLM_VALUE
-#define STM32_PLLM_VALUE                    4
+
 
 //#define UART_DRIVER 			SD2
 //#define UART_TX_PIN			A9
